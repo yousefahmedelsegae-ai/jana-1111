@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JANA | 11:11 ❤️</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Tahoma, Arial, sans-serif;
+  color: white;
+  background: radial-gradient(circle at top, #54213f, #211322 55%, #09070d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 15px;
+  overflow-x: hidden;
+}
+
+.stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(#e7b7cf 1px, transparent 1px);
+  background-size: 75px 75px, 110px 110px;
+  opacity: .3;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  padding: 35px 23px;
+  border: 1px solid rgba(226,183,137,.4);
+  border-radius: 25px;
+  background: rgba(20,12,23,.92);
+  box-shadow: 0 0 45px rgba(199,91,145,.2);
+}
+
+.small-title {
+  color: #e7bd91;
+  letter-spacing: 5px;
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f1c5d8;
+  margin: 22px 0 5px;
+  letter-spacing: 4px;
+}
+
+.date {
+  color: #e9c18d;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+p { line-height: 2.1; }
+
+.subtitle {
+  color: #e7c9d8;
+  font-size: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 20px 0 12px;
+  background: #281c2b;
+  border: 1px solid #a86c8c;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  outline: none;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 14px 24px;
+  background: linear-gradient(120deg,#a84e78,#d69b9d);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#error {
+  color: #ff9eae;
+  min-height: 25px;
+  font-size: 14px;
+}
+
+#letter {
+  display: none;
+  animation: appear 1.2s ease;
+}
+
+.message {
+  text-align: right;
+  color: #f4e6ed;
+  font-size: 16px;
+  line-height: 2.2;
+  margin-top: 25px;
+}
+
+.gold { color: #e9c18d; }
+
+.signature {
+  color: #f0bfd5;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+#playButton {
+  display: none;
+  margin-top: 15px;
+}
+
+.heart {
+  position: fixed;
+  bottom: -30px;
+  color: #e8a5c4;
+  font-size: 20px;
+  animation: float 7s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes appear {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  to {
+    transform: translateY(-110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@media(max-width:450px) {
+  h1 { font-size: 39px; }
+  .container { padding: 28px 18px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="container">
+
+  <section id="welcome">
+    <div class="small-title">A SPECIAL SURPRISE</div>
+    <h1>JANA ❤️</h1>
+    <div class="date">11 : 11</div>
+
+    <p class="subtitle">
+      A little surprise made just for you...
+      <br>
+      There's something I want you to see.
+    </p>
+
+    <p class="gold">اكتبي كلمة السر عشان تفتحي مفاجأتك ❤️</p>
+
+    <input
+      type="password"
+      id="password"
+      placeholder="Enter Your Secret Password"
+      autocomplete="off"
+    >
+
+    <br>
+
+    <button onclick="unlock()">UNLOCK MY HEART ♡</button>
+
+    <div id="error"></div>
+  </section>
+
+  <section id="letter">
+
+    <div class="small-title">MADE WITH LOVE</div>
+    <h1>JANA ❤️</h1>
+    <div class="date">Happy 11:11</div>
+
+    <div class="message">
+
+      بما إن النهارده يوم مميز 11/11، حبيت أعملك حاجة مختلفة تفضل ذكرى حلوة بينا ❤️
+
+      <br><br>
+
+      مش عارف إذا كنت بعرف أعبّر عن اللي جوايا بالكلام ولا لأ، بس كل اللي أعرفه إن وجودك في حياتي فرق معايا كتير.
+
+      <br><br>
+
+      وكل يوم بيعدّي عليا بتأكد إني بحبك أكتر من اليوم اللي قبله، وإن مفيش يوم بيعدّي وإنتِ معايا إلا وبيكون أحلى من اللي قبله. أنا ببقى مبسوط من قلبي طول ما إنتِ جنبي، ووجودك لوحده كفاية يخلّي أيامي أحلى.
+
+      <br><br>
+
+      يا جنا، إنتِ مش مجرد شخص بحبه، إنتِ بقيتي جزء جميل من أيامي، وسبب لابتسامة بتيجي من غير مقدمات.
+
+      <br><br>
+
+      كان نفسي نكون قريبين من بعض علشان أشوفك براحتي يا حبيبتي، عارف إن ده نصيبنا وأنا راضي، بس في نفس الوقت واثق إن في حاجة كبيرة جاية، وحاجة هتبسطنا إحنا الاتنين يا بطوط ❤️
+
+      <br><br>
+
+      يمكن مش كل يوم بعرف أقولك قد إيه إنتِ غالية عندي، بس حبيت النهارده أفكرك إنك مميزة عندي بطريقة محدش يقدر ياخد مكانها.
+
+      <br><br>
+
+      ولو كان ليا أمنية في يوم 11/11، فهي إن كل الأيام الجاية تكون فيها ضحكتك، وإننا نفضل نعمل ذكريات حلوة نفتكرها ونضحك عليها.
+
+      <br><br>
+
+      نفسي أفضل كل يوم أختارك من جديد، وأحبك أكتر، ونفضل سوا نعيش أحلى حكاياتنا.
+
+    </div>
+
+    <div class="signature">
+      Happy 11:11, My Jana ❤️
+      <br>
+      <span class="gold">You are my favorite wish.</span>
+    </div>
+
+    <p class="gold">A song just for you 🎵</p>
+
+    <audio id="mySong" loop preload="auto">
+      <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="playButton" onclick="playMusic()">
+      تشغيل الأغنية 🎵
+    </button>
+
+    <p class="subtitle">
+      Forever a beautiful wish... ❤️
+    </p>
+
+  </section>
+
+</div>
+
+<script>
+
+function unlock() {
+
+  const pass = document.getElementById("password").value;
+
+  if (pass === "11/5/2026") {
+
+    document.getElementById("welcome").style.display = "none";
+    document.getElementById("letter").style.display = "block";
+
+    createHearts();
+
+    const song = document.getElementById("mySong");
+
+    song.play().catch(() => {
+      document.getElementById("playButton").style.display = "inline-block";
+    });
+
+    window.scrollTo({top: 0, behavior: "smooth"});
+
+  } else {
+
+    document.getElementById("error").textContent =
+      "الباسورد مش صح، حاولي تاني ❤️";
+
+  }
+
+}
+
+function playMusic() {
+
+  const song = document.getElementById("mySong");
+
+  song.play().then(() => {
+    document.getElementById("playButton").style.display = "none";
+  }).catch(() => {
+    document.getElementById("playButton").style.display = "inline-block";
+  });
+
+}
+
+document.getElementById("password").addEventListener("keydown", function(e) {
+  if (e.key === "Enter") unlock();
+});
+
+function createHearts() {
+
+  for (let i = 0; i < 22; i++) {
+
+    const heart = document.createElement("div");
+
+    heart.className = "heart";
+    heart.textContent = "♥";
+    heart.style.left = Math.random() * 100 + "%";
+    heart.style.animationDelay = Math.random() * 6 + "s";
+    heart.style.fontSize = (14 + Math.random() * 18) + "px";
+
+    document.body.appendChild(heart);
+
+  }
+
+}
+
+</script>
+
+</body>
+  </html>
+  
